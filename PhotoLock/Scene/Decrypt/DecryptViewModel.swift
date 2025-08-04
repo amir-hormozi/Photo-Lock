@@ -8,30 +8,25 @@
 import Foundation
 import Combine
 
-/// ViewModel for managing file decryption logic, designed for UIKit.
 class DecryptViewModel: ObservableObject {
     
-    // MARK: - State Properties
+    // MARK: Variable
     @Published var encryptedFileURL: URL?
     @Published var decryptedData: Data?
     @Published var isDecrypting = false
     
-    // MARK: - Action Subjects
     let showFileImporterAction = PassthroughSubject<Void, Never>()
     let showDecryptedFileSaverAction = PassthroughSubject<Data, Never>()
     let showAlertAction = PassthroughSubject<(title: String, message: String), Never>()
 
-    // Your existing EncryptionManager would go here
     private let encryptionManager = EncryptionManager()
 
-    // MARK: - Intentions (Methods called by the View)
     
-    /// Tells the ViewController to present the file importer.
+    // MARK: Function
     func selectFileTapped() {
         showFileImporterAction.send()
     }
     
-    /// Handles the result from the document picker.
     func handleFileImport(result: Result<URL, Error>) {
         switch result {
         case .success(let url):
