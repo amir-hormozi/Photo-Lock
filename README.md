@@ -76,15 +76,6 @@ The cryptographic workflow is divided into three main stages:
 4.  **Encrypt:** Go to the "Encrypt" tab. Select a source file and the recipient's public key. Save the encrypted output.
 5.  **Decrypt:** Go to the "Decrypt" tab. Select an encrypted file that was encrypted for your public key. Save the decrypted output.
 
-## 📸 Screenshots
-
-*(It is highly recommended to add screenshots of the app here to showcase the UI.)*
-
-| Home Screen                                     | Encrypt Screen                               | Decrypt Screen                                 |
-| :---------------------------------------------- | :------------------------------------------- | :--------------------------------------------- |
-| *(Add a screenshot of the HomeVC with the tabs)* | *(Add a screenshot of the EncryptVC screen)* | *(Add a screenshot of the DecryptVC screen)* |
-
-
 ## 👨‍💻 Author
 
 Amir Hormozi
