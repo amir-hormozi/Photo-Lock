@@ -1,6 +1,6 @@
-# FileLock: Secure File Encryption for iOS
+# Photo Lock: Secure File Encryption for iOS
 
-FileLock is a sample iOS application that demonstrates how to securely encrypt and decrypt files using a hybrid encryption scheme powered by the device's **Secure Enclave** and **CryptoKit**. It provides a clear, end-to-end example of modern cryptographic practices on iOS.
+Photo Lock is a sample iOS application that demonstrates how to securely encrypt and decrypt photos using a hybrid encryption scheme powered by the device's **Secure Enclave** and **CryptoKit**. It provides a clear, end-to-end example of modern cryptographic practices on iOS.
 
 ## ✨ Key Features
 
